@@ -251,6 +251,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxPower: 4
+  propeller: {fileID: 1345550945}
+  propRotSpeed: 300
 --- !u!1 &299639867
 GameObject:
   m_ObjectHideFlags: 0
@@ -439,6 +441,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxPower: 4
+  propeller: {fileID: 787000583}
+  propRotSpeed: 300
 --- !u!1 &431233645
 GameObject:
   m_ObjectHideFlags: 0
@@ -506,6 +510,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxPower: 4
+  propeller: {fileID: 618355588}
+  propRotSpeed: 300
 --- !u!1001 &441087506
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -567,6 +573,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
+--- !u!4 &618355588 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 564492036452326301, guid: bdb14350e20f7d24ea3d9cb2b04f50dc, type: 3}
+  m_PrefabInstance: {fileID: 1485668841}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &756192406
 GameObject:
   m_ObjectHideFlags: 0
@@ -626,6 +637,7 @@ GameObject:
   - component: {fileID: 770149293}
   - component: {fileID: 770149297}
   - component: {fileID: 770149296}
+  - component: {fileID: 770149298}
   m_Layer: 0
   m_Name: Drone
   m_TagString: Untagged
@@ -711,6 +723,7 @@ MonoBehaviour:
   minMaxPitch: 30
   minMaxRoll: 30
   yawPower: 4
+  lerpSpeed: 2
 --- !u!54 &770149297
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -720,7 +733,7 @@ Rigidbody:
   m_GameObject: {fileID: 770149292}
   serializedVersion: 4
   m_Mass: 1
-  m_Drag: 0
+  m_Drag: 0.5
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
@@ -738,6 +751,32 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &770149298
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 770149292}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.24446309, y: 0.14403498, z: 0.3796941}
+  m_Center: {x: 0, y: 0.083440036, z: 0.09053007}
+--- !u!4 &787000583 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6141106818851341304, guid: bdb14350e20f7d24ea3d9cb2b04f50dc, type: 3}
+  m_PrefabInstance: {fileID: 1485668841}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1078386368
 GameObject:
   m_ObjectHideFlags: 0
@@ -846,6 +885,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1217421696 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3967889379697960286, guid: bdb14350e20f7d24ea3d9cb2b04f50dc, type: 3}
+  m_PrefabInstance: {fileID: 1485668841}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1249617917
 GameObject:
   m_ObjectHideFlags: 0
@@ -1037,6 +1081,11 @@ MonoBehaviour:
   m_Teleporting:
     m_PersistentCalls:
       m_Calls: []
+--- !u!4 &1345550945 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1012718259075316092, guid: bdb14350e20f7d24ea3d9cb2b04f50dc, type: 3}
+  m_PrefabInstance: {fileID: 1485668841}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1485668841
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1276,6 +1325,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxPower: 4
+  propeller: {fileID: 1217421696}
+  propRotSpeed: 300
 --- !u!1 &2092139007
 GameObject:
   m_ObjectHideFlags: 0

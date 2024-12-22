@@ -125,7 +125,7 @@
                 {
                     "name": "left",
                     "id": "f3ceeab9-f073-4bbf-b29a-e88685ec5c67",
-                    "path": "<Gamepad>/leftStick/left",
+                    "path": "<XInputController>/leftStick/left",
                     "interactions": "",
                     "processors": "",
                     "groups": "",

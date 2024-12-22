@@ -11,6 +11,7 @@ namespace DjiDrone
         float pedals;
         float throttle;
 
+
         public Vector2 Cyclic { get => cyclic; }
         public float Pedals { get => pedals; }
         public float Throttle { get => throttle; }
