@@ -1,7 +1,9 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 namespace DjiDrone
 {
+    [RequireComponent(typeof(PlayerInput))]
     public class IP_Drone_Inputs : MonoBehaviour
     {
         #region Variables
@@ -9,22 +11,35 @@ namespace DjiDrone
         float pedals;
         float throttle;
 
-        public Vector2 Cyclic { get => cyclic;}
-        public float Pedals { get => pedals;}
-        public float Throttle { get => throttle;}
+        public Vector2 Cyclic { get => cyclic; }
+        public float Pedals { get => pedals; }
+        public float Throttle { get => throttle; }
 
         #endregion
-        // Start is called once before the first execution of Update after the MonoBehaviour is created
-        void Start()
+
+        #region Main Method
+        private void Update()
         {
 
         }
+        #endregion
 
-        // Update is called once per frame
-        void Update()
+        #region Input Methods
+
+        void OnCycle(InputValue value)
         {
-
+            cyclic = value.Get<Vector2>();
         }
+
+        void OnPedals(InputValue value)
+        {
+            pedals = value.Get<float>();
+        }
+        void OnThrottle(InputValue value)
+        {
+            throttle= value.Get<float>();
+        }
+        #endregion
     }
 
 }
