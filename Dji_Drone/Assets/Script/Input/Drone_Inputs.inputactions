@@ -90,61 +90,6 @@
                     "isPartOfComposite": true
                 },
                 {
-                    "name": "LStick",
-                    "id": "20884a17-32b7-4f86-96d5-4acaa973e500",
-                    "path": "2DVector",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Cyclic",
-                    "isComposite": true,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "up",
-                    "id": "18a2e63a-e9ca-4bc0-bffb-a4e6209fa021",
-                    "path": "<XInputController>/leftStick/up",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Cyclic",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
-                    "name": "down",
-                    "id": "5c1fa76b-347a-43f0-af1b-7ed4964729a5",
-                    "path": "<XInputController>/leftStick/down",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Cyclic",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
-                    "name": "left",
-                    "id": "f3ceeab9-f073-4bbf-b29a-e88685ec5c67",
-                    "path": "<XInputController>/leftStick/left",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Cyclic",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
-                    "name": "right",
-                    "id": "38e54ad9-0562-4ce9-9327-a5127172ecf3",
-                    "path": "<Gamepad>/leftStick/right",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Cyclic",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
                     "name": "Arrows",
                     "id": "f24d014b-80e0-46bf-8593-052d27bd4e16",
                     "path": "1DAxis",

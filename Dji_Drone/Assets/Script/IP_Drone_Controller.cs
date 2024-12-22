@@ -47,8 +47,8 @@ public class IP_Drone_Controller : IP_Base_RigidBody
     }
     protected virtual void HandleControls()
     {
-        float pitch = input.Cyclic.y * minMaxPitch;
-        float roll = -input.Cyclic.x * minMaxRoll;
+        float pitch = -input.Cyclic.y * minMaxPitch; 
+        float roll = input.Cyclic.x * minMaxRoll;
         yaw += input.Pedals * yawPower;
 
         //Pitch --> Forward and backward X Axis

@@ -27,17 +27,20 @@ namespace DjiDrone
 
         #region Input Methods
 
-        void OnCycle(InputValue value)
+        void OnCyclic(InputValue value)
         {
+            Debug.Log("Cycle");
             cyclic = value.Get<Vector2>();
         }
 
         void OnPedals(InputValue value)
         {
+            Debug.Log("Pedal");
             pedals = value.Get<float>();
         }
         void OnThrottle(InputValue value)
         {
+            Debug.Log("Throttle");
             throttle= value.Get<float>();
         }
         #endregion
