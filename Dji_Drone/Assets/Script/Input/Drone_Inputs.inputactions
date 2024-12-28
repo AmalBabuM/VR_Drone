@@ -90,6 +90,17 @@
                     "isPartOfComposite": true
                 },
                 {
+                    "name": "",
+                    "id": "7ab6eb54-842e-48f8-a4a9-85eeef97b211",
+                    "path": "<OculusTouchController>{LeftHand}/thumbstick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Cyclic",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
                     "name": "Arrows",
                     "id": "f24d014b-80e0-46bf-8593-052d27bd4e16",
                     "path": "1DAxis",
@@ -156,6 +167,39 @@
                     "isPartOfComposite": true
                 },
                 {
+                    "name": "XRPedal",
+                    "id": "259112e1-c10b-4d20-8d75-e4e0aef02a0a",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pedals",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "bb989dbd-4c12-4aa2-acba-5b2d1c0c3dab",
+                    "path": "<OculusTouchController>{RightHand}/thumbstick/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pedals",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "2241ce38-3f28-4828-8a88-a00c6d22bd87",
+                    "path": "<OculusTouchController>{RightHand}/thumbstick/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pedals",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
                     "name": "Arrows",
                     "id": "5469bdff-656c-4d72-8cd9-acc7ff053af4",
                     "path": "1DAxis",
@@ -214,6 +258,39 @@
                     "name": "positive",
                     "id": "d63a9b1b-d272-432d-8068-7977ec9afd63",
                     "path": "<XInputController>/rightStick/down",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Throttle",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "XRThrottle",
+                    "id": "e3c07228-1fe6-4e2f-8692-7b00ff2dd149",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Throttle",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "8f7ba6d3-52ab-4957-afa3-940bb00b5bb0",
+                    "path": "<OculusTouchController>{RightHand}/thumbstick/down",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Throttle",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "8720abdd-f419-4df3-b406-4b70799babf4",
+                    "path": "<OculusTouchController>{RightHand}/thumbstick/up",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
