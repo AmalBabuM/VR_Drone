@@ -1,0 +1,5 @@
+C:/Un Game/VR_Drone/Dji_Drone/.utmp/RelWithDebInfo/1r4k3q5r/arm64-v8a/CMakeFiles/edit_cache.dir
+C:/Un Game/VR_Drone/Dji_Drone/.utmp/RelWithDebInfo/1r4k3q5r/arm64-v8a/CMakeFiles/rebuild_cache.dir
+C:/Un Game/VR_Drone/Dji_Drone/.utmp/RelWithDebInfo/1r4k3q5r/arm64-v8a/GameActivity/CMakeFiles/game.dir
+C:/Un Game/VR_Drone/Dji_Drone/.utmp/RelWithDebInfo/1r4k3q5r/arm64-v8a/GameActivity/CMakeFiles/edit_cache.dir
+C:/Un Game/VR_Drone/Dji_Drone/.utmp/RelWithDebInfo/1r4k3q5r/arm64-v8a/GameActivity/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,2 @@
+C:\Un Game\VR_Drone\Dji_Drone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\CMakeLists.txt
+C:\Un Game\VR_Drone\Dji_Drone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\CMakeLists.txt
